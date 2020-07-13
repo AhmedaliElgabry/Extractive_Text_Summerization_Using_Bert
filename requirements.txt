@@ -1,0 +1,16 @@
+Flask==1.1.1
+gunicorn==19.9.0
+itsdangerous==1.1.0
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+Werkzeug==0.15.5
+numpy>=1.9.2
+scipy>=1.4.1
+matplotlib>=1.4.3
+pandas>=0.19
+setuptools
+bert-extractive-summarizer 
+spacy==2.1.3
+transformers==2.2.2
+neuralcoref
+torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html

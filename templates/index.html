@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light text-white">
+      <a
+        class="navbar-brand"
+        href="https://mymachinelearningportofolio.herokuapp.com/gabry"
+        >Gabry</a
+      >
+    </nav>
+    <h1 class="text-center">Hi, I’m Gabry. Nice to meet you.</h1>
+    <hr>
+    <h3 class="text-center" style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">that`s an online demo for Text Summerization.</h3>
+    <h3 class="text-center" 
+    style = "font-family:georgia,garamond,serif;font-size:12px;font-style:italic;">
+    *you can grab any text (article,paper,..) with miniumim length 100 word,and the model will output it`s summery.</h3>
+
+    <div class="row">
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto text-center">
+        <form action="/" method="POST" enctype="multipart/form-data" class="mt-2">
+          <textarea name="message" rows="10" cols="68">put your text here.</textarea>
+          <br><br>
+          <br />
+          <input type="submit" class="mt-3 text-primary"/>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <hr />
+    {% if data: %}
+    {# the above line is print IMG_0036.JPG #}
+    <div class="text-center">
+      <h3>summery:</h3>
+      <h4>{{ data }}</h2>
+      <h3 class="text-center mt-4" 
+      style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;" class="mt-5">
+      the model performance can increase a lot by doing more trainig in gpu.</h3>
+      <h3 class="text-center "  style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+        My Email : gabryjabry@gmail.com </h3>
+    </div>
+    {% else %}
+     <h3 class="text-center fixed-bottom"  style = "font-family:georgia,garamond,serif;font-size:16px;font-style:italic;">
+      My Email : gabryjabry@gmail.com </h3>
+    {% endif %}
+  </body>
+</html>
