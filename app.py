@@ -11,7 +11,6 @@ import numpy as np
 #-------------------------
 
 
-model = Summarizer()
 
 
 
@@ -22,6 +21,7 @@ def home():
     if request.method == 'POST':
       text = request.form['message']
       body = text
+      model = Summarizer()
       result = model(body, min_length=100)
       full = ''.join(result)
       print(full)
