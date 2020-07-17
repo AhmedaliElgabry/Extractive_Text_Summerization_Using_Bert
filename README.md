@@ -1,5 +1,8 @@
 # Extractive_Text_Summerization_Using_Bert Deployment using Flask and Docker
 ![alt text](https://github.com/AhmedaliElgabry/Extractive_Text_Summerization_Using_Bert/blob/master/The%20model%20in%20my%20localhost.png)
+<p align="center">
+  the model Deployment in my localhost
+</p>
 <br/>
 <br/>
 **That is my final project for neural network and Deep learning (CIE 555) course in my university** <br/>
