@@ -15,7 +15,7 @@ make the data is suitable format to can feed it in the pretrained model-.<br/>
 • the model is deployed using Flask <br/>
 <br/>
 
-**The comberhansive detailed information about the project is available in Deep Learning Final Project Report.**<br/>
+**The comberhansive detailed information about the project is available in Bert Extractive Text Summarizer Report.**<br/>
 <br/>
 <br/>
 
