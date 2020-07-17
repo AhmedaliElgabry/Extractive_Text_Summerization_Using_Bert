@@ -22,3 +22,6 @@ make the data is suitable format to can feed it in the pretrained model-.<br/>
 **That`s is sample from model output**<br/>
 <br/>
 ![alt text](https://github.com/AhmedaliElgabry/Extractive_Text_Summerization_Using_Bert/blob/master/the%20model%20output.png)
+<p align="center">
+  the model output
+</p>
